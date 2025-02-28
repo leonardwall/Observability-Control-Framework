@@ -57,7 +57,7 @@ OCF aligns with **DevOps Research and Assessment (DORA) metrics** to improve **s
 
 ## **Getting Started**  
 
-** Clone the Repository**  
+** Clone the Repository **  
 
 ```bash
 git clone https://github.com/YOUR-USERNAME/observability-control-framework.git
