@@ -42,19 +42,6 @@ OCF consists of **six core functional areas** covering the entire observability 
 
 ---
 
-## **DORA Metrics Integration**  
-
-OCF aligns with **DevOps Research and Assessment (DORA) metrics** to improve **software delivery and operational performance**.  
-
-| **DORA Metric** | **How OCF Supports It** | **Relevant Controls** |
-|---------------|----------------------|-----------------|
-| **Deployment Frequency (DF)** | Tracks deployment events and correlations with performance impact. | `OCF-ID-02`, `OCF-DA-04` |
-| **Lead Time for Changes (LT)** | Monitors CI/CD pipeline execution time using logs, traces, and metrics. | `OCF-IN-04`, `OCF-RR-02` |
-| **Change Failure Rate (CFR)** | Correlates failures with observability data (traces, logs, metrics) to identify regressions. | `OCF-DA-01`, `OCF-RR-04` |
-| **Mean Time to Restore (MTTR)** | Implements **real-time incident detection, forensics, and automated rollback** strategies. | `OCF-RR-01`, `OCF-RR-03` |
-
----
-
 ## **Getting Started**  
 
 **Clone the Repository**
