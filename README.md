@@ -29,7 +29,7 @@ The **Observability Control Framework (OCF)** provides structured **best practic
 For a detailed breakdown of **framework controls and best practices**, see:
 
 - **[Full Observability Control Framework Documentation](https://github.com/leonardwall/Observability-Control-Framework/docs/observability-control-framework.md)**
-- **[Contribution Guidelines](https://github.com/leonardwall/Observability-Control-Framework/CONTRIBUTING.md)**
+- **[Contribution Guidelines](https://github.com/leonardwall/docs/Observability-Control-Framework/CONTRIBUTING.md)**
 
 ---
 
@@ -46,7 +46,7 @@ cd Observability-Control-Framework
 - OpenTelemetry Instrumentation Guides  
 
 ### 3. Contribute!  
-- Check out **[`CONTRIBUTING.md`](https://github.com/leonardwall/Observability-Control-Framework/CONTRIBUTING.md)** for contribution guidelines.  
+- Check out **[`contributing.md`](https://github.com/leonardwall/docs/Observability-Control-Framework/conributing.md)** for contribution guidelines.  
 
 ---
 
