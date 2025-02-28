@@ -9,8 +9,7 @@ The **Observability Control Framework (OCF)** provides structured **best practic
 ## Why OCF?
 
 **OpenTelemetry-Centric** – Built around **OpenTelemetry (OTel)** for vendor-neutral observability.  
-**Cloud-Native Focus** – Designed for **Kubernetes, microservices, serverless, and distributed systems**.  
-**NIST & DORA Alignment** – Inspired by **NIST 800-53**, **DORA metrics**, and **modern SRE principles**.  
+**Cloud-Native Focus** – Designed for **Kubernetes, microservices, serverless, and distributed systems**.   
 **Scalable & Actionable** – Provides **clear observability controls, automation strategies, and incident response frameworks**.  
 
 ---
@@ -18,8 +17,7 @@ The **Observability Control Framework (OCF)** provides structured **best practic
 ## What’s Inside?
 
 **Standardized Observability Controls** for identifying, instrumenting, collecting, detecting, responding, and optimizing telemetry data.  
-**Integration with CNCF & OpenTelemetry Best Practices** for unified cloud monitoring.  
-**DORA Metrics Framework** for measuring **Deployment Frequency, Lead Time, Change Failure Rate, and MTTR**.  
+**Integration with CNCF & OpenTelemetry Best Practices** for unified cloud monitoring.   
 **Actionable Guidance for Logs, Metrics, Traces, and Events** to enhance **visibility, reliability, and performance monitoring**.  
 
 ---
