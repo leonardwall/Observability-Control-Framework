@@ -42,7 +42,7 @@ OCF consists of **six core functional areas** covering the entire observability 
 
 ---
 
-## 📊 **DORA Metrics Integration**  
+## **DORA Metrics Integration**  
 
 OCF aligns with **DevOps Research and Assessment (DORA) metrics** to improve **software delivery and operational performance**.  
 
