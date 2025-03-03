@@ -15,34 +15,6 @@ OCF consists of **six core functional areas** covering the entire observability 
 
 | **Functional Area**   | **Control ID** | **Control Name** | **Description** | **Practical Implementation Steps** |
 |----------------------|--------------|----------------------|----------------|--------------------------------|
-| **Collect & Process** | **OCF-CP-01** | Telemetry Pipelines | Implement **scalable telemetry pipelines** (e.g., **OpenTelemetry Collector**) for processing logs, metrics, and traces. | 1. Design a pipeline architecture for telemetry ingestion. 2. Implement data processing stages (filtering, enrichment). 3. Ensure scalability and fault tolerance in the pipeline. 4. Validate telemetry data integrity at each stage. 5. Optimize pipelines for performance and cost efficiency. | | **OCF-CP-02** | Data Sampling & Rate Limiting | Define adaptive sampling strategies to **optimize telemetry volume and storage costs**. | 1. Define sampling policies for logs, traces, and metrics. 2. Implement dynamic rate limiting to prevent data overload. 3. Adjust sampling rates based on system performance and business needs. 4. Monitor and analyze the impact of data reduction on observability. 5. Continuously refine sampling strategies based on evolving system architecture. | | **OCF-CP-03** | Data Normalization & Enrichment | Standardize telemetry data formats and enrich with contextual metadata (e.g., cloud region, service version). | 1. Establish a common schema for telemetry data (logs, metrics, traces). 2. Enrich telemetry data with metadata such as user context, environment, and region. 3. Implement transformation pipelines to normalize incoming data. 4. Store normalized data in a structured format for easy querying. 5. Validate enrichment and normalization pipelines regularly. | | **OCF-CP-04** | Data Correlation & Contextualization | Correlate logs, metrics, and traces for end-to-end visibility into system behavior. | 1. Implement a unified observability platform to aggregate logs, metrics, and traces. 2. Ensure all telemetry data includes unique identifiers for correlation. 3. Develop dashboards to visualize correlated data for troubleshooting. 4. Automate anomaly detection based on correlated insights. 5. Continuously refine correlation models to improve incident detection accuracy. |
-
-OCF-CP-04
-
-Data Correlation & Contextualization
-
-Correlate logs, metrics, and traces for end-to-end visibility into system behavior.
-
-1. Implement a unified observability platform to aggregate logs, metrics, and traces. 2. Ensure all telemetry data includes unique identifiers for correlation. 3. Develop dashboards to visualize correlated data for troubleshooting. 4. Automate anomaly detection based on correlated insights. 5. Continuously refine correlation models to improve incident detection accuracy.
-
-# Observability Control Framework (OCF)  
-
-**A Cloud-Native Observability Governance Framework Built on OpenTelemetry & CNCF Best Practices**  
-
-## Overview  
-
-The **Observability Control Framework (OCF)** provides a structured approach to implementing **logs, metrics, traces, and event-driven observability** in **cloud-native environments**. Inspired by **OpenTelemetry and NIST**, OCF offers a standardized set of **controls** to enhance system visibility, reliability, and performance.
-
----
-
-## Framework Structure  
-
-OCF consists of **six core functional areas** covering the entire observability lifecycle.
-
-### **OCF Functional Areas & Controls**  
-
-| **Functional Area**   | **Control ID** | **Control Name** | **Description** | **Practical Implementation Steps** |
-|----------------------|--------------|----------------------|----------------|--------------------------------|
 | **Identify** | **OCF-ID-01** | Define Observability Strategy | Establish an observability strategy aligned with business objectives and system reliability. Define **SLIs, SLOs, and KPIs**. | 1. Identify key business and system goals. 2. Define SLIs based on critical performance indicators. 3. Establish SLOs aligned with user expectations. 4. Implement tracking mechanisms for SLIs and SLOs. 5. Regularly review and adjust objectives based on operational feedback. |
 |  | **OCF-ID-02** | Inventory & Dependency Mapping | Maintain an **inventory of services, dependencies, and infrastructure** with auto-discovery mechanisms. | 1. Deploy service discovery tools to map dependencies. 2. Maintain an up-to-date service inventory. 3. Automate dependency tracking where possible. 4. Visualize dependencies using service mapping tools. 5. Update and review inventory periodically. |
 |  | **OCF-ID-03** | Observability Maturity Assessment | Conduct periodic assessments of observability coverage across **logs, metrics, traces, and events**. | 1. Define an observability assessment framework. 2. Perform audits of existing observability practices. 3. Identify gaps in logging, metrics, and tracing coverage. 4. Develop a roadmap for addressing weaknesses. 5. Reassess observability maturity on a regular schedule. |
