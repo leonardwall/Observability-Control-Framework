@@ -41,13 +41,3 @@ OCF consists of **six core functional areas** covering the entire observability 
 ```bash
 git clone https://github.com/leonard-wall/observability-control-framework.git
 cd observability-control-framework
-
----
-
-## **Getting Started**  
-
-**Clone the Repository**
-
-```bash
-git clone https://github.com/leonard-wall/observability-control-framework.git
-cd observability-control-framework
